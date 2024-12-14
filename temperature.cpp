@@ -26,3 +26,4 @@ int main()
     cout << "Enter scale (C/F): ";
     cin >> scale;
     convertTemperature(temperature, scale);
+    return 0;
