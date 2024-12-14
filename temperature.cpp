@@ -27,3 +27,4 @@ int main()
     cin >> scale;
     convertTemperature(temperature, scale);
     return 0;
+}
