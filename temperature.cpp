@@ -21,3 +21,4 @@ int main()
 {
     double temperature;
     char scale;
+    cout << "Enter temperature: ";
