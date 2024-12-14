@@ -6,3 +6,7 @@ void convertTemperature(double temperature, char scale)
     {
         double fahrenheit = (temperature * 9.0 / 5.0) + 32.0;
         cout << temperature << "°C is " << fahrenheit << "°F" << endl;
+    }
+    else if (scale == 'F' || scale == 'f')
+    {
+        double celsius = (temperature - 32.0) * 5.0 / 9.0;
