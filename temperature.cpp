@@ -20,3 +20,4 @@ void convertTemperature(double temperature, char scale)
 int main()
 {
     double temperature;
+    char scale;
