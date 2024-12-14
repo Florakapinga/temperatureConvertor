@@ -23,3 +23,5 @@ int main()
     char scale;
     cout << "Enter temperature: ";
     cin >> temperature;
+    cout << "Enter scale (C/F): ";
+    cin >> scale;
